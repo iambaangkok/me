@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3d-Printing on iambaangkok.me | portfolio</title>
+    <link>https://iambaangkok.github.io/me/tags/3d-printing/</link>
+    <description>Recent content in 3d-Printing on iambaangkok.me | portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://iambaangkok.github.io/me/tags/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cube Vase</title>
+      <link>https://iambaangkok.github.io/me/posts/26-01-15-cube-vase/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://iambaangkok.github.io/me/posts/26-01-15-cube-vase/</guid>
+      <description>After the Japan trip I slowed down on side projects for a bit, then designed a tiny cube vase for small flowers.</description>
+    </item>
+    <item>
+      <title>3D-printed gifts for my partner!</title>
+      <link>https://iambaangkok.github.io/me/posts/25-12-20-3d-printed-gifts-for-my-partner/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://iambaangkok.github.io/me/posts/25-12-20-3d-printed-gifts-for-my-partner/</guid>
+      <description>End of 2025: I was heading to Japan to see my partner, so I spent December printing little gifts: rings, earrings, and a goofy award seal.</description>
+    </item>
+    <item>
+      <title>Build-your-tank Dev Log #3</title>
+      <link>https://iambaangkok.github.io/me/boardgames/25-11-30-build-your-tank-dev-log---3/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iambaangkok.github.io/me/boardgames/25-11-30-build-your-tank-dev-log---3/</guid>
+      <description>Battle map, obstacles, targeting board, and a scan indicator, trying to make the table look like a game and not just a pile of plastic.</description>
+    </item>
+    <item>
+      <title>Build-your-tank Dev Log #2</title>
+      <link>https://iambaangkok.github.io/me/boardgames/25-11-21-build-your-tank-dev-log---2/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iambaangkok.github.io/me/boardgames/25-11-21-build-your-tank-dev-log---2/</guid>
+      <description>New tank parts (engine, hull, tracks, armor and gun variants) plus a tiny seat for Dororo-kun.</description>
+    </item>
+    <item>
+      <title>Build-your-tank Dev Log #1</title>
+      <link>https://iambaangkok.github.io/me/boardgames/25-11-09-build-your-tank-dev-log---1/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://iambaangkok.github.io/me/boardgames/25-11-09-build-your-tank-dev-log---1/</guid>
+      <description>Started a physical prototype for a build-your-tank style boardgame with CAD on a 3×3×3 grid, spring pins, and a circle pin that almost works.</description>
+    </item>
+    <item>
+      <title>Bought a 3D Printer!</title>
+      <link>https://iambaangkok.github.io/me/posts/25-10-28-bought-a-3d-printer/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://iambaangkok.github.io/me/posts/25-10-28-bought-a-3d-printer/</guid>
+      <description>Late October 2025 I finally pulled the trigger on a Bambu Lab A1, AMS Lite, filaments, and a lot of messing around in FreeCAD.</description>
+    </item>
+  </channel>
+</rss>

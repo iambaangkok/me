@@ -18,3 +18,4 @@
 | 2026-04-19 | Fixed `home.html` list-container `{{ end }}` / `</div>` order; `hugo` OK |
 | 2026-04-19 | Refine: avatar above Hi, left align, subtle secret toggle (·, transparent button) |
 | 2026-04-19 | Refine: avatar below “Hi!” (title → photo → bio) |
+| 2026-04-19 | Archived: `specs/active/home-profile-avatar` → `specs/completed/home-profile-avatar` |

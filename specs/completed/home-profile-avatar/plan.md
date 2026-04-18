@@ -1,7 +1,7 @@
 # Technical Plan: Home profile avatar (circular + front/back toggle)
 
 **Task ID:** home-profile-avatar  
-**Status:** Implemented  
+**Status:** Archived (`specs/completed/home-profile-avatar`)  
 **Based on:** [research.md](./research.md)
 
 ## 1. System Architecture

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="https://iambaangkok.github.io/me//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://iambaangkok.github.io/me//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://iambaangkok.github.io/me//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://iambaangkok.github.io/me//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://iambaangkok.github.io/me//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+
+
+<title>
+    
+    Build-your-tank Dev Log #3 | iambaangkok.me | portfolio
+    
+</title>
+
+<link rel="canonical" href="https://iambaangkok.github.io/me/boardgames/25-11-30-build-your-tank-dev-log---3/"/>
+
+<meta property="og:url" content="https://iambaangkok.github.io/me/boardgames/25-11-30-build-your-tank-dev-log---3/">
+  <meta property="og:site_name" content="iambaangkok.me | portfolio">
+  <meta property="og:title" content="Build-your-tank Dev Log #3">
+  <meta property="og:description" content="Battle map, obstacles, targeting board, and a scan indicator, trying to make the table look like a game and not just a pile of plastic.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="boardgames">
+    <meta property="article:published_time" content="2025-11-30T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-11-30T00:00:00+00:00">
+    <meta property="article:tag" content="Board-Game">
+    <meta property="article:tag" content="Dev-Log">
+    <meta property="article:tag" content="3d-Printing">
+    <meta property="article:tag" content="Build-Your-Tank">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/me/assets/combined.min.3209beeafc513e09d9335d79f780445280e66384e1d28840d9510f557ef0edb6.css" media="all">
+
+
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-xxxxxxxxx"></script>
+      <script>
+        var doNotTrack = false;
+        if ( true ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-xxxxxxxxx');
+        }
+      </script>
+
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="light">
+
+  <div class="content">
+    <header>
+      
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="https://iambaangkok.github.io/me/">iambaangkok.me | portfolio</a>
+    </h1>
+
+    <div class="flex">
+        
+
+        
+        
+      
+        <p class="small ">
+            <a href="https://iambaangkok.github.io/me/" >
+                /me
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="https://iambaangkok.github.io/me/my-games" >
+                /my-games
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="https://iambaangkok.github.io/me/posts" >
+                /posts
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="https://iambaangkok.github.io/me/video-games" >
+                /video-games
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="https://iambaangkok.github.io/me/boardgames" >
+                /boardgames
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="https://iambaangkok.github.io/me/shaders" >
+                /shaders
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="https://iambaangkok.github.io/me/contacts" >
+                /contacts
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+    </header>
+
+    <main class="main">
+      
+
+
+
+
+<div class="breadcrumbs"><a href="/me/">/me</a><span class="breadcrumbs-separator">/</span><a href="/me/boardgames/">Boardgames</a><span class="breadcrumbs-separator">/</span>
+        <a href="/me/boardgames/25-11-30-build-your-tank-dev-log---3/">Build-your-tank Dev Log #3</a></div>
+
+
+<div  class="autonumber" >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">Build-your-tank Dev Log #3</h1>
+    
+    <p class="single-summary">Battle map, obstacles, targeting board, and a scan indicator, trying to make the table look like a game and not just a pile of plastic.</p>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2025-11-30T00:00:00&#43;00:00">November 30, 2025</time>
+      
+
+      
+      &nbsp; · &nbsp;
+      1 min read
+      
+    </p>
+
+  </div>
+
+  
+
+  
+  
+
+  <div class="single-tags">
+    
+    <span>
+      <a href="https://iambaangkok.github.io/me/tags/board-game/">#Board-Game</a>
+    </span>
+    
+    
+    <span>
+      <a href="https://iambaangkok.github.io/me/tags/dev-log/">#Dev-Log</a>
+    </span>
+    
+    
+    <span>
+      <a href="https://iambaangkok.github.io/me/tags/3d-printing/">#3d-Printing</a>
+    </span>
+    
+    
+    <span>
+      <a href="https://iambaangkok.github.io/me/tags/build-your-tank/">#Build-Your-Tank</a>
+    </span>
+    
+    
+  </div>
+
+  
+  
+
+  
+
+  
+  <aside class="toc">
+    <p><strong>Table of contents</strong></p>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#table-presence">Table presence</a></li>
+    <li><a href="#battle-map">Battle map</a></li>
+    <li><a href="#map-pieces--obstacles">Map pieces / obstacles</a></li>
+    <li><a href="#targeting-map">Targeting map</a></li>
+    <li><a href="#scan-indicator">Scan indicator</a></li>
+    <li><a href="#honest-status">Honest status</a></li>
+  </ul>
+</nav>
+  </aside>
+  
+
+  
+
+  <div class="single-content">
+    <h2 class="heading" id="table-presence">
+  Table presence
+  <a class="anchor" href="#table-presence">#</a>
+</h2>
+<p>30 Nov 2025. Tank parts are fun, but you still need somewhere to play. I spent time this week on map stuff: how the battlefield looks, how obstacles sit on it, and how players might read range / targeting without squinting.</p>
+<h2 class="heading" id="battle-map">
+  Battle map
+  <a class="anchor" href="#battle-map">#</a>
+</h2>
+<p>First pass at a battle map layout (still subject to total redesign, this is prototype energy):</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class=" img-small">
+
+    <div>
+        <img loading="lazy" alt="battle map" src="/me/image/boardgames/Build-your-tank/010%20battle-map.png#small" >
+    </div>
+
+    
+</figure>
+</p>
+<h2 class="heading" id="map-pieces--obstacles">
+  Map pieces / obstacles
+  <a class="anchor" href="#map-pieces--obstacles">#</a>
+</h2>
+<p>Printed obstacle bits so cover isn&rsquo;t just &ldquo;pretend this eraser is a rock&rdquo;:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class=" img-small">
+
+    <div>
+        <img loading="lazy" alt="map pieces obstacles" src="/me/image/boardgames/Build-your-tank/011%20map-pieces-obstacles.jpg#small" >
+    </div>
+
+    
+</figure>
+</p>
+<h2 class="heading" id="targeting-map">
+  Targeting map
+  <a class="anchor" href="#targeting-map">#</a>
+</h2>
+<p>Targeting map to indicate where you want to shoot:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class=" img-small">
+
+    <div>
+        <img loading="lazy" alt="targeting map" src="/me/image/boardgames/Build-your-tank/012%20targeting-map.png#small" >
+    </div>
+
+    
+</figure>
+</p>
+<h2 class="heading" id="scan-indicator">
+  Scan indicator
+  <a class="anchor" href="#scan-indicator">#</a>
+</h2>
+<p>And a scan indicator thing for scanning for enemy tank&rsquo;s position:</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure class=" img-small">
+
+    <div>
+        <img loading="lazy" alt="scan indicator" src="/me/image/boardgames/Build-your-tank/013%20scan-indicator.png#small" >
+    </div>
+
+    
+</figure>
+</p>
+<h2 class="heading" id="honest-status">
+  Honest status
+  <a class="anchor" href="#honest-status">#</a>
+</h2>
+<p>So far the rules and components that I came up with seems to be quite complex for a boardgame. And there are still lots of pitfalls in the rules. So many parts too, gonna be hard to balance the stats. :dies:</p>
+
+    
+  </div>
+
+  
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/me/boardgames/25-11-21-build-your-tank-dev-log---2/">
+                        Build-your-tank Dev Log #2
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/me/boardgames/26-04-18-cookcook-dev-log---1/">
+                        CookCook Dev Log #1
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+    </main>
+  </div>
+
+  <footer>
+    
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+  </footer>
+
+  
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+
+<script defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false }
+      ]
+    });
+  });
+</script>
+  
+
+</body>
+
+<script src="/me/js/carousel.js"></script>
+<script src="/me/js/theme-switch.js"></script>
+<script defer src="/me/js/copy-code.js"></script>
+</html>
