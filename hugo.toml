@@ -40,6 +40,11 @@ listSummaries = true
 listDateFormat = '2 Jan 2006'
 listShowTags = true
 
+# Sections merged into /posts (HTML list + posts/rss.xml); sort is always by date (newest first)
+postsFeedSections = ["posts", "boardgames", "my-games", "video-games", "shaders"]
+# Max items in /posts/index.xml RSS (HTML pagination unchanged)
+postsFeedLimit = 50
+
 # Breadcrumbs
 [params.breadcrumbs]
 enabled = true

@@ -14,3 +14,4 @@
 |------|------|
 | 2026-04-18 | Initial article + assets |
 | 2026-04-18 | Card Maker subsection + internal link to FLATLINE Card Maker post |
+| 2026-04-18 | Task archived: moved `specs/active/cookcook-devlog-1` → `specs/completed/cookcook-devlog-1` |

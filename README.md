@@ -15,7 +15,6 @@
 # Development, Build, Publish
 * set `baseUrl` in `hugo.toml`
 * local-dev with `hugo server --disableFastRender`
-* build with hugo: `hugo`
-* sync `/public` to `/docs`: `python .\sync_files.py`
+* build with hugo: `hugo --destination docs`
 * commit & push
   * github pages should be updated once the build is finished
