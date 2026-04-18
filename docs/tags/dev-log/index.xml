@@ -6,8 +6,15 @@
     <description>Recent content in Dev-Log on iambaangkok.me | portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iambaangkok.github.io/me/tags/dev-log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CookCook Dev Log #1</title>
+      <link>https://iambaangkok.github.io/me/boardgames/26-04-18-cookcook-dev-log---1/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://iambaangkok.github.io/me/boardgames/26-04-18-cookcook-dev-log---1/</guid>
+      <description>First dev log for CookCook — concept, timeline, playtest prep, how the cards are built with an upgraded generic Card Maker, and a few preview images.</description>
+    </item>
     <item>
       <title>Tank Game Dev Log #8: Strategy game and it&#39;s sunset</title>
       <link>https://iambaangkok.github.io/me/video-games/25-06-30-tank-game-dev-log-%238/</link>

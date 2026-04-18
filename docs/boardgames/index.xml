@@ -6,8 +6,15 @@
     <description>Recent content in Boardgames on iambaangkok.me | portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iambaangkok.github.io/me/boardgames/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CookCook Dev Log #1</title>
+      <link>https://iambaangkok.github.io/me/boardgames/26-04-18-cookcook-dev-log---1/</link>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://iambaangkok.github.io/me/boardgames/26-04-18-cookcook-dev-log---1/</guid>
+      <description>First dev log for CookCook — concept, timeline, playtest prep, how the cards are built with an upgraded generic Card Maker, and a few preview images.</description>
+    </item>
     <item>
       <title>FLATLINE Dev Log: Card Maker</title>
       <link>https://iambaangkok.github.io/me/boardgames/24-10-26-flatline-dev-log---card-maker/</link>

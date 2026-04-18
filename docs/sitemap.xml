@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iambaangkok.github.io/me/tags/board-game/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/boardgames/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/tags/cookcook/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/boardgames/26-04-18-cookcook-dev-log---1/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/tags/dev-log/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://iambaangkok.github.io/me/tags/</loc>
+    <lastmod>2026-04-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://iambaangkok.github.io/me/tags/art/</loc>
     <lastmod>2025-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iambaangkok.github.io/me/posts/25-09-18-coffee-shop-nights/</loc>
     <lastmod>2025-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iambaangkok.github.io/me/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://iambaangkok.github.io/me/posts/</loc>
     <lastmod>2025-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iambaangkok.github.io/me/tags/</loc>
-    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://iambaangkok.github.io/me/tags/3dmodel/</loc>
-    <lastmod>2025-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iambaangkok.github.io/me/tags/dev-log/</loc>
     <lastmod>2025-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iambaangkok.github.io/me/video-games/25-06-30-tank-game-dev-log-%238/</loc>
@@ -73,12 +85,6 @@
   </url><url>
     <loc>https://iambaangkok.github.io/me/shaders/25-02-22-start/</loc>
     <lastmod>2025-02-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iambaangkok.github.io/me/tags/board-game/</loc>
-    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iambaangkok.github.io/me/boardgames/</loc>
-    <lastmod>2024-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iambaangkok.github.io/me/tags/flatline/</loc>
     <lastmod>2024-10-26T00:00:00+00:00</lastmod>
