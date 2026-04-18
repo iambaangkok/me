@@ -14,3 +14,4 @@
 | Date | Note |
 |------|------|
 | 2026-04-18 | Option 1: unified /posts + RSS |
+| 2026-04-18 | Archived: `specs/active/posts-unified-listing` → `specs/completed/posts-unified-listing` |

@@ -47,7 +47,12 @@
 
 
 
-<link rel="stylesheet" href="/me/assets/combined.min.4d54bfa327fab1313d368c61370a1d9642ffb596e3eb89f9b1cc008b3bfe7aa9.css" media="all">
+
+
+
+
+<link rel="stylesheet" href="/me/assets/combined.min.3209beeafc513e09d9335d79f780445280e66384e1d28840d9510f557ef0edb6.css" media="all">
+
 
 
 
@@ -168,6 +173,34 @@
     
     <h1>Hi!</h1>
     
+
+    <div class="profile-avatar" data-profile-avatar>
+  <div class="profile-avatar__ring" aria-hidden="true">
+    <img
+      class="profile-avatar__img profile-avatar__img--back"
+      src="/me/image/profile/profile-back_hu_e2f46c96d450e25b.png"
+      width="320"
+      height="320"
+      alt=""
+      loading="lazy"
+      decoding="async" />
+    <img
+      class="profile-avatar__img profile-avatar__img--front"
+      src="/me/image/profile/profile-front_hu_eda173233ba1ddc5.png"
+      width="320"
+      height="320"
+      alt="Profile photo"
+      fetchpriority="high"
+      decoding="async" />
+  </div>
+  <button
+    type="button"
+    class="profile-avatar__toggle"
+    aria-label="Show back of profile photo"
+    aria-pressed="false">
+    <span class="profile-avatar__toggle-icon" aria-hidden="true">·</span>
+  </button>
+</div>
 
     
     <p><p>iambaangkok is an ambitious programmer with a passion for creating great games.
@@ -334,10 +367,11 @@ At <strong>night</strong>, I make games and boardgames, or learn about cool stuf
     
 
     
-
-    
 </div>
 
+
+
+<script defer src="/me/js/profile-toggle.js"></script>
 
     </main>
   </div>

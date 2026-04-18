@@ -1,0 +1,34 @@
+{{- $front := resources.Get "image/profile/profile-front.png" -}}
+{{- $back := resources.Get "image/profile/profile-back.png" -}}
+{{- if and $front $back -}}
+{{- $size := 320 -}}
+{{- $frontImg := $front.Fill (printf "%dx%d Center" $size $size) -}}
+{{- $backImg := $back.Fill (printf "%dx%d Center" $size $size) -}}
+<div class="profile-avatar" data-profile-avatar>
+  <div class="profile-avatar__ring" aria-hidden="true">
+    <img
+      class="profile-avatar__img profile-avatar__img--back"
+      src="{{ $backImg.RelPermalink }}"
+      width="{{ $size }}"
+      height="{{ $size }}"
+      alt=""
+      loading="lazy"
+      decoding="async" />
+    <img
+      class="profile-avatar__img profile-avatar__img--front"
+      src="{{ $frontImg.RelPermalink }}"
+      width="{{ $size }}"
+      height="{{ $size }}"
+      alt="Profile photo"
+      fetchpriority="high"
+      decoding="async" />
+  </div>
+  <button
+    type="button"
+    class="profile-avatar__toggle"
+    aria-label="Show back of profile photo"
+    aria-pressed="false">
+    <span class="profile-avatar__toggle-icon" aria-hidden="true">·</span>
+  </button>
+</div>
+{{- end -}}
